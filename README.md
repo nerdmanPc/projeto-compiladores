@@ -1,5 +1,5 @@
-# <div style="text-align: justify"> Robot-L: Compilador para Simulação de Robô Móvel </div>  
-## (Projeto de Compiladores 2019.2 - Bacharelado de Ciência da Computação UFBA)
+# <p align="center"> Robot-L: Compilador para Simulação de Robô Móvel </p>  
+## <p align="center"> (Projeto de Compiladores - 2019.2) </p> 
 
 ## Objetivo
 
