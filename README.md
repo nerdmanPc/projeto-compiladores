@@ -33,7 +33,8 @@ A linguagem de programação Robot-L tem como propósito prover mecanismos simpl
 - O compilador deve aceitar palavras escritas em minúsculas ou maiúsculas.
 - Comentários são definidos em linhas iniciadas com o símbolo “#”
 
-<div style="text-align: center"> Tabela 2 - Especificação da gramática da Robot-L </div>
+<p align="center">  Tabela 2 - Especificação da gramática da Robot-L </p>
+
 
 ## Programa exemplo
 
@@ -43,7 +44,7 @@ Usando a gramática apresentada na seção anterior é possível compor o progra
 
 Maiores detalhes sobre as declarações da linguagem Robot-L podem ser encontrados na Tabela 3.
 
-<div style="text-align: center"> Tabela 3 - Detalhes sobre as declarações da linguagem </div>
+<p align="center">  Tabela 3 - Detalhes sobre as declarações da linguagem </p>
 
 ## Regras semânticas
 
@@ -71,19 +72,23 @@ No emu8086 existe a possibilidade de *interfaceamento* com um robô móvel (disp
 
 O robô é controlado pelo envio de dados para a porta de E/S de número 9. Considerando os comandos da Tabela 4.
 
-<div style="text-align: center"> Tabela 4 - Lista de comandos para o robô móvel </div>
- 
+
+<p align="center">  Tabela 4 - Lista de comandos para o robô móvel </p>
+
+
 Um exemplo de transformação pode ser vista no Exemplo 7.
 
-<div style="text-align: center"> Exemplo 7 - Exemplo de transformação de código </div>
+
+<p align="center">  Exemplo 7 - Exemplo de transformação de código </p>
+
 
 As informações sobre a execução do comando “examinar” enviado para o robô pode ser obtido através do registrador de dados (porta 10). Como pode ser visto na Tabela 5.
 
-<div style="text-align: center"> Tabela 5 - Registrador de dados </div>
+<p align="center">  Tabela 5 - Registrador de dados </p>
 
 O registrador de estado atual do robô pode ser obtido usando o registrador de estado (porta 11), ver Tabela 6.
 
-<div style="text-align: center"> Tabela 6 - Registrador de estado </div>
+<p align="center">  Tabela 6 - Registrador de estado </p>
 
 Maiores detalhes sobre o funcionamento do emulador e da biblioteca de instruções 8086 disponível para uso podem ser encontrados no manual^3 de funcionamento que vem junto com o programa instalador do emu8086.
 
@@ -114,4 +119,5 @@ Maiores detalhes sobre o funcionamento do emulador e da biblioteca de instruçõ
 - As notas serão atribuídas de forma totalizada para todo o grupo, e o grupo decidirá como será feita a redistribuição interna.
 Assim, um grupo de 3 pessoas pode receber a nota 24, e decidir que a nota do Aluno 1 é 10; Aluno 2 é 8 e Aluno 3 é 6.
 
-<div style="text-align: center"> Tabela 7 - Produtos e Pontuação </div>
+<p align="center">  Tabela 7 - Produtos e Pontuação </p>
+
