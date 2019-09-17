@@ -19,7 +19,7 @@ O compilador a ser construído deve possuir os seguintes blocos: analisador léx
 
 **Os blocos analisadores devem ser construídos seguindo os requisitos apresentados na Tabela 1**
 
-<div style="text-align: center"> Tabela 1 - Requisitos mínimos para os blocos de analisadores </div>
+<p align="center"> Tabela 1 - Requisitos mínimos para os blocos de analisadores </p>
 
 <p align="center"><img src="imgs/Tabela1.png?raw=true" alt="Tabela 1 - Requisitos mínimos para os blocos de analisadores" title="Tabela 1 - Requisitos mínimos para os blocos de analisadores"><br></p>
 
