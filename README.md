@@ -25,11 +25,11 @@ O compilador a ser construído deve possuir os seguintes blocos: analisador léx
 
 A linguagem de programação Robot-L tem como propósito prover mecanismos simples para a manipulação de robôs móveis. Para tanto, a mesma é composta por uma sintaxe simples e declarações de alto nível. A especificação realizada é baseada na linguagem Karel^2 e é apresentada na Tabela 2.
 
-• Os terminais estão descritos entre aspas duplas e em negrito.
-• O símbolo * representa zero ou mais ocorrências do não-terminal à esquerda deste símbolo.
-• Produções opcionais estão entre colchetes.
-• O compilador deve aceitar palavras escritas em minúsculas ou maiúsculas.
-• Comentários são definidos em linhas iniciadas com o símbolo “#”
+- Os terminais estão descritos entre aspas duplas e em negrito.
+- O símbolo * representa zero ou mais ocorrências do não-terminal à esquerda deste símbolo.
+- Produções opcionais estão entre colchetes.
+- O compilador deve aceitar palavras escritas em minúsculas ou maiúsculas.
+- Comentários são definidos em linhas iniciadas com o símbolo “#”
 
 <div style="text-align: center"> Tabela 2 - Especificação da gramática da Robot-L </div>
 
@@ -47,12 +47,12 @@ Maiores detalhes sobre as declarações da linguagem Robot-L podem ser encontrad
 
 As regras semânticas definidas para a linguagem não permite que:
 
-• Existam duas declarações de instrução com o mesmo nome;
-• Declarações imediatamente subseqüentes tenham sentidos diferentes.
+- Existam duas declarações de instrução com o mesmo nome;
+- Declarações imediatamente subseqüentes tenham sentidos diferentes.
 
 Exemplos:
 
-• Uma vez que o robô é composto por dispositivos mecânicos, algumas instruções precisam ser concluídas para que novas instruções possam ser executadas, assim:
+- Uma vez que o robô é composto por dispositivos mecânicos, algumas instruções precisam ser concluídas para que novas instruções possam ser executadas, assim:
 Após uma instrução ***Mova n*** , em que ***n*** representa o número de passos, deve ser precedida por uma instrução do tipo ***Aguarde Até Pronto***;
 
 ## Geração de código
@@ -87,21 +87,29 @@ Maiores detalhes sobre o funcionamento do emulador e da biblioteca de instruçõ
 
 ## Considerações
 
-• Os detalhes da simulação de robô móvel podem ser encontrados na seção “I/O ports and Hardware Interrupts” do manual do emu8086.
-• Um código exemplo para a manipulação do robô pode ser encontrado no arquivo robot.asm, na pasta examples do simulador.
-• Imagem do robô no simulador pode ser vista na figura abaixo.
+- Os detalhes da simulação de robô móvel podem ser encontrados na seção “I/O ports and Hardware Interrupts” do manual do emu8086.
+- Um código exemplo para a manipulação do robô pode ser encontrado no arquivo robot.asm, na pasta examples do simulador.
+- Imagem do robô no simulador pode ser vista na figura abaixo.
 
 ## Entrega e Pontuação
 
 **Entrega do Código Final + Artigo**: **20/11/2019** (para todas as equipes).
+
+
 **Apresentações**: nas aulas dos dias 25/11, 27/11 e 02/12 (ordem definida por sorteio no dia 20/11/2019).
+
+
 **Documentação**: Todo código gerado deve estar devidamente documentado. Deve ser criado um Artigo em formato de artigos da SBC^4 relatando todo o projeto, as decisões tomadas pela equipe, e os trechos do código fonte que ilustrem as decisões. Devem ser incluídos exemplos dos erros considerados e como o compilador responde a cada tipo de erro.
+
+
 **Critérios de Avaliação**
-• considerará o uso das técnicas de projeto e desenvolvimento de compiladores vistos em sala de aula;
-• Para cumprir com a avaliação considera-se a entrega dos produtos descritos na Tabela 7.
-• **Atenção:** Programas que não compilam ou com cópias totais /parciais (plágio) terão nota zero.
-• Entregas fora do prazo estabelecido terão desconto de 20% da nota por dia de atraso.
-• As notas serão atribuídas de forma totalizada para todo o grupo, e o grupo decidirá como será feita a redistribuição interna.
+
+
+- considerará o uso das técnicas de projeto e desenvolvimento de compiladores vistos em sala de aula;
+- Para cumprir com a avaliação considera-se a entrega dos produtos descritos na Tabela 7.
+- **Atenção:** Programas que não compilam ou com cópias totais /parciais (plágio) terão nota zero.
+- Entregas fora do prazo estabelecido terão desconto de 20% da nota por dia de atraso.
+- As notas serão atribuídas de forma totalizada para todo o grupo, e o grupo decidirá como será feita a redistribuição interna.
 Assim, um grupo de 3 pessoas pode receber a nota 24, e decidir que a nota do Aluno 1 é 10; Aluno 2 é 8 e Aluno 3 é 6.
 
 <div style="text-align: center"> Tabela 7 - Produtos e Pontuação </div>
