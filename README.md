@@ -21,6 +21,8 @@ O compilador a ser construído deve possuir os seguintes blocos: analisador léx
 
 <div style="text-align: center"> Tabela 1 - Requisitos mínimos para os blocos de analisadores </div>
 
+<p align="center"><img src="../imgs/Tabela1.png?raw=true" alt="Tabela 1 - Requisitos mínimos para os blocos de analisadores" title="Tabela 1 - Requisitos mínimos para os blocos de analisadores"><br></p>
+
 ## Descrição geral da Linguagem Robot L
 
 A linguagem de programação Robot-L tem como propósito prover mecanismos simples para a manipulação de robôs móveis. Para tanto, a mesma é composta por uma sintaxe simples e declarações de alto nível. A especificação realizada é baseada na linguagem Karel^2 e é apresentada na Tabela 2.
