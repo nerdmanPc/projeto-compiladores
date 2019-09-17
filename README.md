@@ -59,6 +59,49 @@ Após uma instrução ***Mova n*** , em que ***n*** representa o número de pass
 
 Uma vez que o processamento léxico, sintático e semântico do código foi bem sucedido, o compilador deve traduzir o código fonte para um código intermediário em linguagem de montagem, seguindo o padrão Intel 8086.
 
+O código *assembly* gerado pode ser executado usando o emulador de 8086, denominado emu8086. Nesse emulador, é considerada a possibilidade de comunicação com elementos externos através de portas de E/S (comandos *in* e *out*). O emulador suporta o *interfaceamento* com dispositivos virtuais que podem ser criados usando qualquer linguagem de programação que permita manipulação de arquivos.
+
+O *interfaceamento* com tais dispositivos é feito usando um arquivo (*emu8086.io*) para comunicação com o dispositivo virtual. A
+porta *0* é representa pelo *byte* zero no arquivo, a porta *1* pelo *byte* um, a porta *2* pelo *byte* dois, e assim por diante. Através do
+arquivo podem-se endereçar portas de *000000* a *0FFFFh* (*0* a *65535*).
+
+No emu8086 existe a possibilidade de *interfaceamento* com um robô móvel (dispositivo virtual previamente disponível como exemplo no simulador).
+
+O robô é controlado pelo envio de dados para a porta de E/S de número 9. Considerando os comandos da Tabela 4.
+
 <div style="text-align: center"> Tabela 4 - Lista de comandos para o robô móvel </div>
  
+Um exemplo de transformação pode ser vista no Exemplo 7.
+
+<div style="text-align: center"> Exemplo 7 - Exemplo de transformação de código </div>
+
+As informações sobre a execução do comando “examinar” enviado para o robô pode ser obtido através do registrador de dados (porta 10). Como pode ser visto na Tabela 5.
+
+<div style="text-align: center"> Tabela 5 - Registrador de dados </div>
+
+O registrador de estado atual do robô pode ser obtido usando o registrador de estado (porta 11), ver Tabela 6.
+
+<div style="text-align: center"> Tabela 6 - Registrador de estado </div>
+
+Maiores detalhes sobre o funcionamento do emulador e da biblioteca de instruções 8086 disponível para uso podem ser encontrados no manual^3 de funcionamento que vem junto com o programa instalador do emu8086.
+
+## Considerações
+
+• Os detalhes da simulação de robô móvel podem ser encontrados na seção “I/O ports and Hardware Interrupts” do manual do emu8086.
+• Um código exemplo para a manipulação do robô pode ser encontrado no arquivo robot.asm, na pasta examples do simulador.
+• Imagem do robô no simulador pode ser vista na figura abaixo.
+
 ## Entrega e Pontuação
+
+**Entrega do Código Final + Artigo**: **20/11/2019** (para todas as equipes).
+**Apresentações**: nas aulas dos dias 25/11, 27/11 e 02/12 (ordem definida por sorteio no dia 20/11/2019).
+**Documentação**: Todo código gerado deve estar devidamente documentado. Deve ser criado um Artigo em formato de artigos da SBC^4 relatando todo o projeto, as decisões tomadas pela equipe, e os trechos do código fonte que ilustrem as decisões. Devem ser incluídos exemplos dos erros considerados e como o compilador responde a cada tipo de erro.
+**Critérios de Avaliação**
+• considerará o uso das técnicas de projeto e desenvolvimento de compiladores vistos em sala de aula;
+• Para cumprir com a avaliação considera-se a entrega dos produtos descritos na Tabela 7.
+• **Atenção:** Programas que não compilam ou com cópias totais /parciais (plágio) terão nota zero.
+• Entregas fora do prazo estabelecido terão desconto de 20% da nota por dia de atraso.
+• As notas serão atribuídas de forma totalizada para todo o grupo, e o grupo decidirá como será feita a redistribuição interna.
+Assim, um grupo de 3 pessoas pode receber a nota 24, e decidir que a nota do Aluno 1 é 10; Aluno 2 é 8 e Aluno 3 é 6.
+
+<div style="text-align: center"> Tabela 7 - Produtos e Pontuação </div>
