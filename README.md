@@ -35,6 +35,8 @@ A linguagem de programação Robot-L tem como propósito prover mecanismos simpl
 
 <p align="center">  Tabela 2 - Especificação da gramática da Robot-L </p>
 
+<p align="center"><img src="imgs/Tabela2.png?raw=true" alt="Tabela 2 - Especificação da gramática da Robot-L" title="Tabela 2 - Especificação da gramática da Robot-L"><br></p>
+
 
 ## Programa exemplo
 
@@ -45,6 +47,8 @@ Usando a gramática apresentada na seção anterior é possível compor o progra
 Maiores detalhes sobre as declarações da linguagem Robot-L podem ser encontrados na Tabela 3.
 
 <p align="center">  Tabela 3 - Detalhes sobre as declarações da linguagem </p>
+
+<p align="center"><img src="imgs/Tabela3.png?raw=true" alt="Tabela 3 - Detalhes sobre as declarações da linguagem" title="Tabela 3 - Detalhes sobre as declarações da linguagem"><br></p>
 
 ## Regras semânticas
 
@@ -75,6 +79,8 @@ O robô é controlado pelo envio de dados para a porta de E/S de número 9. Cons
 
 <p align="center">  Tabela 4 - Lista de comandos para o robô móvel </p>
 
+<p align="center"><img src="imgs/Tabela4.png?raw=true" alt="Tabela 4 - Lista de comandos para o robô móvel" title="Tabela 4 - Lista de comandos para o robô móvel"><br></p>
+
 
 Um exemplo de transformação pode ser vista no Exemplo 7.
 
@@ -86,9 +92,13 @@ As informações sobre a execução do comando “examinar” enviado para o rob
 
 <p align="center">  Tabela 5 - Registrador de dados </p>
 
+<p align="center"><img src="imgs/Tabela5.png?raw=true" alt="Tabela 5 - Registrador de dados" title="Tabela 5 - Registrador de dados"><br></p>
+
 O registrador de estado atual do robô pode ser obtido usando o registrador de estado (porta 11), ver Tabela 6.
 
 <p align="center">  Tabela 6 - Registrador de estado </p>
+
+<p align="center"><img src="imgs/Tabela6.png?raw=true" alt="Tabela 6 - Registrador de estado" title="Tabela 6 - Registrador de estado"><br></p>
 
 Maiores detalhes sobre o funcionamento do emulador e da biblioteca de instruções 8086 disponível para uso podem ser encontrados no manual^3 de funcionamento que vem junto com o programa instalador do emu8086.
 
@@ -97,6 +107,8 @@ Maiores detalhes sobre o funcionamento do emulador e da biblioteca de instruçõ
 - Os detalhes da simulação de robô móvel podem ser encontrados na seção “I/O ports and Hardware Interrupts” do manual do emu8086.
 - Um código exemplo para a manipulação do robô pode ser encontrado no arquivo robot.asm, na pasta examples do simulador.
 - Imagem do robô no simulador pode ser vista na figura abaixo.
+
+<p align="center"><img src="imgs/Consideracoes.png?raw=true" alt="Imagem do robô no simulador" title="Imagem do robô no simulador"><br></p>
 
 ## Entrega e Pontuação
 
@@ -120,4 +132,7 @@ Maiores detalhes sobre o funcionamento do emulador e da biblioteca de instruçõ
 Assim, um grupo de 3 pessoas pode receber a nota 24, e decidir que a nota do Aluno 1 é 10; Aluno 2 é 8 e Aluno 3 é 6.
 
 <p align="center">  Tabela 7 - Produtos e Pontuação </p>
+
+<p align="center"><img src="imgs/Tabela7.png?raw=true" alt="Tabela 7 - Produtos e Pontuação" title="Tabela 7 - Produtos e Pontuação"><br></p>
+
 
